@@ -8,6 +8,8 @@ void main(List<String> args) {
     print('Неверно');
   }
 
+  a == 10 ? print('Верно') : print('Неверно');
+
   switch (a) {
     case 10:
       print('Верно');
